@@ -1,9 +1,10 @@
 import React from "react";
 
-const ArticlesPage = () => {
+const ArticlesPage = ({match}) => {
+    const name=match.params.name;
   return (
     <>
-      <h1>This is an article</h1>    
+      <h1>This is the {name} article</h1>    
     </>
   );
 };
