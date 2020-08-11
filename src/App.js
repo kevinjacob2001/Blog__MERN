@@ -8,7 +8,7 @@ import './App.css';
 import HomePage from './pages/homepage'
 import AboutPage from './pages/AboutPage';
 import ArticlesList from './pages/ArticlesList';
-import ArticlesPage from './pages/Articlespage';
+import Articlespage from './pages/Articlespage';
 import NavBar from './Components/NavBar'; 
 
 class App extends Component {
@@ -21,7 +21,7 @@ class App extends Component {
             <Route exact path="/" component={HomePage} />
             <Route path="/about" component={AboutPage} />
             <Route path="/articles-list" component={ArticlesList} />
-            <Route path="/article/:name" component={ArticlesPage} />
+            <Route path="/article/:name" component={Articlespage} />
           </div>
         </div>
       </Router>
