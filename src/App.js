@@ -7,7 +7,7 @@ import './App.css';
 
 import HomePage from './pages/homepage'
 import AboutPage from './pages/AboutPage';
-import ArticlesList from './pages/ArticlesList';
+import ArticlesListPage from './pages/ArticlesListPage';
 import Articlespage from './pages/Articlespage';
 import NavBar from './Components/NavBar'; 
 
@@ -20,7 +20,7 @@ class App extends Component {
           <div id="page-body">
             <Route exact path="/" component={HomePage} />
             <Route path="/about" component={AboutPage} />
-            <Route path="/articles-list" component={ArticlesList} />
+            <Route path="/articles-list" component={ArticlesListPage} />
             <Route path="/article/:name" component={Articlespage} />
           </div>
         </div>
