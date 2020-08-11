@@ -7,16 +7,19 @@ import HomePage from './pages/homepage'
 import AboutPage from './pages/AboutPage';
 import ArticlesList from './pages/ArticlesList';
 import ArticlesPage from './pages/Articlespage';
+import './App.css';
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div className="App">
-          <Route exact path="/" component={HomePage} />
-          <Route path="/about" component={AboutPage} />
-          <Route path="/articles-list" component={ArticlesList} />
-          <Route path="/articels" component={ArticlesPage} />
+          <div id="page-body">
+            <Route exact path="/" component={HomePage} />
+            <Route path="/about" component={AboutPage} />
+            <Route path="/articles-list" component={ArticlesList} />
+            <Route path="/article" component={ArticlesPage} />
+          </div>
         </div>
       </Router>
     )
