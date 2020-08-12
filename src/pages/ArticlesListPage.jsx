@@ -6,7 +6,7 @@ import articleContent from "./article-content";
 const ArticlesListPage = () => {
   return (
     <>
-      <h1>Articles</h1>
+      <h1 style={{textAlign:"center"}}>Articles</h1>
       <ArticleList articles={articleContent} />
     </>
   );

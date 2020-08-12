@@ -1,7 +1,11 @@
 *{
 font-family: Playfair Display ;
 font-size: 20px;
+
 }
+
+
+
 
 button {
   padding: 16px;
@@ -11,6 +15,8 @@ button {
   color: white;
   border-radius: 8px;
   cursor: pointer;
+  border-width: 0;
+
 }
 
 h3, h4 {
@@ -23,7 +29,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: white;
+  background: rgb(197, 179, 179);
 }
 
 nav ul {
@@ -59,17 +65,21 @@ nav a:hover {
   padding-top: 64px;
 padding-left: 10px;
 padding-right: 10px;
+
+
 }
 
 .article-list-item {
   text-decoration: none;
   color: black;
   padding: 16px 0 0 0;
+
 }
 
 .article-list-item p {
   padding-bottom: 32px;
   border-bottom: 2px solid black;
+
 }
 
 #add-comment-form {
@@ -94,6 +104,7 @@ padding-right: 10px;
 
 #add-comment-form button {
   width: 320px;
+  border-radius: 7px;
 }
 
 #upvotes-section button, p {
