@@ -1,9 +1,12 @@
-import React from "react";
+import React,{useState} from "react";
 import articleContent from "./article-content";
 import ArticleList from "../Components/ArticleList";
 import NotFoundPage from "./NotFound";
 
 const ArticlePage = ({ match }) => {
+
+
+
   const name = match.params.name;
   const article = articleContent.find((article) => article.name === name);
 
