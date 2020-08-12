@@ -4,6 +4,7 @@ import ArticleList from "../Components/ArticleList";
 import NotFoundPage from "./NotFound";
 import CommentsList from '../Components/CommentsList';
 import UpvotesSection from '../Components/UpvotesSection';
+import AddCommentForm from '../Components/AddCommentForm';
 
 const ArticlePage = ({ match }) => {
   const name = match.params.name;
@@ -36,6 +37,7 @@ const ArticlePage = ({ match }) => {
         <p key={key}>{paragraph}</p>
       ))}
 <CommentsList comments={articleInfo.comments}/>
+<AddCommentForm articleName={name} setArticleInfo={setArticleInfo}/>
       <h2 style={{ textAlign: "center" }}>Other articles.</h2>
       <ArticleList articles={otherArticles} />
     </>
