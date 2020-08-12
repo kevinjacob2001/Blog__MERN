@@ -28,8 +28,17 @@ class App extends Component {
               <Route path="/article/:name" component={Articlespage} />
               <Route component={NotFoundPage} />
             </Switch>
+        
           </div>
+        
+          <h6 style={{textAlign:"center"}}>designed and developed by  
+          <a href="https://kevinjacob2001.github.io/"> Kevin Jacob</a>
+          
+          
+          </h6>
+          
           </div>
+       
         </div>
       </Router>
     )

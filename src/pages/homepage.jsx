@@ -11,7 +11,7 @@ const HomePage = () => {
       <p>Hey there! It's me Kevin. Welcome to my blog. </p>
     <br/>
     <p>This is a full-featured website with features for posting comments for the articles and upvoting them.</p>
-    <p>This website's frontend is powered by React.js. Backend is powered by Node.js with Express server tied in with MongoDB database(𝗠𝗘𝗥𝗡 Stack) </p>
+    <p>This website's frontend is powered by React.js. Backend is powered by Node.js with Express server tied in with MongoDB database(𝗠𝗘𝗥𝗡 Stack), developed and designed from scratch. </p>
     </div>
   );
 };
