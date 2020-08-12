@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import articleContent from "./article-content";
 import ArticleList from "../Components/ArticleList";
 import NotFoundPage from "./NotFound";
+import CommentsList from '../Components/CommentsList';
 
 const ArticlePage = ({ match }) => {
   const name = match.params.name;
