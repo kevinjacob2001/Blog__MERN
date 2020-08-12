@@ -15,16 +15,23 @@ const body=await result.json();
 }
   return (
     <div id="add-comment-form">
+
+     <div>
       <h3>Add a Comment.</h3>
       <label>
         Name:
         <input type="text" value={username} onChange={(e) => setusername(e.target.value)}/>
       </label>
+      </div>
+
+      <div>
       <label>
           Comments:
         <textarea rows="4" cols="50" value={commentText} onChange={(e) => setCommentText(e.target.value)}/>
       </label>
+      </div>
       <button onClick={()=>addComment()}>Add Comment.</button>
+   
     </div>
   );
 };
