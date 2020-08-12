@@ -17,7 +17,7 @@ const body=await result.json();
     <div id="add-comment-form">
 
      <div>
-      <h3>Add a Comment.</h3>
+      <h2 style={{textAlign:"center"}}>Add a Comment:</h2>
       <label>
         Name:
         <input type="text" placeholder="Enter your name:" value={username} onChange={(e) => setusername(e.target.value)}/>

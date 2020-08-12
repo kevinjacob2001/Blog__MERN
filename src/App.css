@@ -1,7 +1,7 @@
 * {
   font-family: Playfair Display;
 
-
+color: black;
 }
 
 #bod{
@@ -52,7 +52,7 @@ nav li {
 }
 
 nav a {
-  text-decoration: none;
+
   color: black;
   font-weight: bold;
   padding: 16px 32px;
@@ -61,7 +61,7 @@ nav a {
 nav a:hover {
   background: black;
   color: white;
-  text-decoration: none;
+ 
 }
 
 #page-body {
@@ -74,8 +74,9 @@ nav a:hover {
 }
 
 .article-list-item {
-  text-decoration: none;
-  color: black;
+
+  color:black;
+  
   padding: 16px 0 0 0;
 }
 

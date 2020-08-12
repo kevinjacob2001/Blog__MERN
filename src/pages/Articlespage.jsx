@@ -31,7 +31,8 @@ const ArticlePage = ({ match }) => {
 
   return (
     <>
-      <h1 style={{ textAlign: "center" ,marginBottom:"30px"}}>{article.title}</h1>
+      <h1 style={{ textAlign: "center" ,marginBottom:"20px"}}>{article.title}</h1>
+      <hr style={{width:"50%",background:"black"}}></hr>
      <UpvotesSection  articleName={name} upvotes={articleInfo.upvotes} setArticleInfo={setArticleInfo}/>
       {article.content.map((paragraph, key) => (
         <p key={key}>{paragraph}</p>

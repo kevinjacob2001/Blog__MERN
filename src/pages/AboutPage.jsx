@@ -4,6 +4,7 @@ const AboutPage = () => {
   return (
     <div style={{height:"100vh"}}>
       <h1 style={{ textAlign: "center" ,marginBottom:"50px"}}>About me</h1>
+      <hr style={{width:"50%",background:"black"}}></hr>
       <p>
         Hai there,I'm 𝐊𝐞𝐯𝐢𝐧 𝐉𝐚𝐜𝐨𝐛,A first year student pursuing BTech in
         Computer Science Engineering at Mar Baselios college of engineering and
