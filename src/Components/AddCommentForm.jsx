@@ -6,10 +6,11 @@ const AddCommentForm = () => {
 
   const addComment = async () => {
     const result = await fetch(`/api/articles/${articleName}/add-comment`,{method: "post",body:JSON.stringify({username,text:commentText }),
-headers:{
-    "Content-Type":"application/json"
-}})
-
+headers:{"Content-Type":"application/json"}
+})
+const body=await result.json();
+setArticleInfo(body)
+}
   return (
     <div id="add-comment-form">
       <h3>Add a Comment.</h3>
@@ -33,5 +34,5 @@ headers:{
     </div>
   );
 };
-}
+
 export default AddCommentForm;
