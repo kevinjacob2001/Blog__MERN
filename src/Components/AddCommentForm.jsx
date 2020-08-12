@@ -2,6 +2,9 @@ import React,{useState} from "react";
 
 const AddCommentForm = () => {
 
+    const [username,setusername]=useState("")
+    const [commentText,setCommentText]=useState("")
+
   return (
     <div id="add-comment-form">
       <h3>Add a Comment.</h3>
