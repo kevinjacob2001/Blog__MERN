@@ -21,6 +21,7 @@ const body=await result.json();
         <input type="text" value={username} onChange={(e) => setusername(e.target.value)}/>
       </label>
       <label>
+          Comments:
         <textarea rows="4" cols="50" value={commentText} onChange={(e) => setCommentText(e.target.value)}/>
       </label>
       <button onClick={()=>addComment()}>Add Comment.</button>
