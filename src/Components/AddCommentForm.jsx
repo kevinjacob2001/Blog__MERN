@@ -5,9 +5,10 @@ const AddCommentForm = () => {
   const [commentText, setCommentText] = useState("");
 
   const addComment = async () => {
-    const result = await fetch(`/api/articles/${articleName}/add-comment`, {method: "post"});
-    const body = await result.json();
-  };
+    const result = await fetch(`/api/articles/${articleName}/add-comment`,{method: "post",body:JSON.stringify({username,text:commentText }),
+headers:{
+    "Content-Type":"application/json"
+}})
 
   return (
     <div id="add-comment-form">
@@ -32,5 +33,5 @@ const AddCommentForm = () => {
     </div>
   );
 };
-
+}
 export default AddCommentForm;
