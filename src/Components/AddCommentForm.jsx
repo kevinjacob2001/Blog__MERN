@@ -10,6 +10,8 @@ headers:{"Content-Type":"application/json"}
 })
 const body=await result.json();
 setArticleInfo(body)
+setusername("");
+setCommentText("");
 }
   return (
     <div id="add-comment-form">
