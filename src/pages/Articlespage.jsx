@@ -37,6 +37,7 @@ const ArticlePage = ({ match }) => {
       {article.content.map((paragraph, key) => (
         <p key={key}>{paragraph}</p>
       ))}
+            <hr style={{width:"70%",background:"black"}}></hr>
 <CommentsList comments={articleInfo.comments}/>
 <AddCommentForm articleName={name} setArticleInfo={setArticleInfo}/>
       <h2 style={{ textAlign: "center" }}>Other articles.</h2>

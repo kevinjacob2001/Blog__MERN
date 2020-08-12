@@ -10,11 +10,18 @@ const AboutPage = () => {
         Computer Science Engineering at Mar Baselios college of engineering and
         technology, Trivandrum.I live in Thiruvananthapuram.💕
         <br />
-        I’m currently learning 𝗠𝗘𝗥𝗡(𝗠ongo,𝗘xpress,𝗥eact,𝗡ode) stack Web
-        developement, Focusing on Javascript and React.
+        I’m currently learning 𝗠𝗘𝗥𝗡(𝗠ongo,𝗘xpress,𝗥eact,𝗡ode) stack web
+        developement, focusing on Javascript and React.
         <br />
-     
-        So let’s get started…
+     <h3 style={{textAlign:"center",marginTop:"30px"}}>Get in touch!</h3>
+     <hr style={{width:"30%"}}></hr>
+     <div style={{textAlign:"center"}}>
+     <a style={{textDecoration:"none"}} href="https://kevinjacob2001.github.io/">Personal website.</a>
+     <br/>
+     <a style={{textDecoration:"none"}} href="https://www.instagram.com/kevinjacob2001/"><img src="https://img.icons8.com/fluent/35/000000/instagram-new.png"/>Instagram</a>
+     <br/>
+     <a style={{textDecoration:"none"}} href="https://www.linkedin.com/in/kevinjacob2001/"> <img src="https://img.icons8.com/fluent/35/000000/linkedin-2.png"/>Linkedin</a>
+     </div>
       </p>
 
       <br />

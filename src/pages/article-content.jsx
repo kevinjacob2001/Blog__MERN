@@ -1,75 +1,31 @@
 const articles = [
     {
         name: 'learn-react',
-        title: 'The Fastest Way to Learn React',
+        title: 'React.js',
         content: [
-            `Welcome! Today we're going to be talking about the fastest way to
-            learn React. We'll be discussing some topics such as proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+            `React is a JavaScript “library”. It is not exactly a “framework”. It is not a complete solution and you will often need to use more libraries with React to form any solution. React does not assume anything about the other parts in any solution.`,
+            `There are many many ways to use React in our projects. This is one of the main benefits of React. It isn’t too opinionated about how you should use it. The two main ways to use React are:
+
+            Add React to an already-existing website (this is the approach scotch.io uses)
+            Use React to build a full single-page-app (SPA)`
         ]
     },    {
         name: 'learn-node',
-        title: 'How to Build a Node Server in 10 Minutes',
+        title: 'Node.js',
         content: [
-            `In this article, we're going to be talking looking at a very quick way
-            to set up a Node.js server. We'll be discussing some topics such as proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+            `Node.js is an open-source, cross-platform, JavaScript runtime environment (Framework) that executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.`,
+           `
+
+            Corporate users of Node.js software include GoDaddy,Groupon,IBM, LinkedIn,Microsoft,Netflix,PayPal,Rakuten, SAP,Voxer, Walmart,and Yahoo!`,
         ]
     },     {
         name: 'my-thoughts-on-resumes',
         title: 'My Thoughts on Resumes',
         content: [
-            `Today is the day I talk about something which scares most people: resumes.
-            In reality, I'm not sure why people have such a hard time with proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+            `When crafting your resume, you might study examples of resumes from your industry for inspiration and best practices. While there are many ways you can use resume samples, there are three main takeaways you should look for:
+
+            Make it simple and easy to read. Resume samples are simple and straightforward. This is because employers have a minimal amount of time to review your resume, so readability is key. This also means selecting a professional, clean font.
+           `
         ]
     },  
 ];
