@@ -5,6 +5,10 @@ const AddCommentForm = () => {
     const [username,setusername]=useState("")
     const [commentText,setCommentText]=useState("")
 
+    const addComment=async()=>{
+const result=await fetch(`/api/articles/${articleName/add-comment`},{method:'post'})
+    }
+
   return (
     <div id="add-comment-form">
       <h3>Add a Comment.</h3>
