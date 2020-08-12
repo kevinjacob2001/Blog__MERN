@@ -19,6 +19,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <NavBar />
+          <div id="bod">
           <div id="page-body">
             <Switch>
               <Route exact path="/" component={HomePage} />
@@ -27,6 +28,7 @@ class App extends Component {
               <Route path="/article/:name" component={Articlespage} />
               <Route component={NotFoundPage} />
             </Switch>
+          </div>
           </div>
         </div>
       </Router>

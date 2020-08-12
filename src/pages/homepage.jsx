@@ -3,7 +3,7 @@ import React from "react";
 const HomePage = () => {
   return (
     <>
-      <h1 style={{ textAlign: "center" }}>Hello, welcome to my travel blog</h1>
+      <h1 style={{ textAlign: "center" ,marginBottom:"50px"}}>Hello, welcome to my travel blog</h1>
       <p>
         Travel blogging is a popular niche. If you are looking to create your
         own WordPress travel website, this can play to your favor, as there are

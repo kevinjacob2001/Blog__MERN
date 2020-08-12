@@ -1,7 +1,18 @@
 * {
   font-family: Playfair Display;
-  font-size: 20px;
+
+
 }
+
+#bod{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./bg1.jpg');
+
+ 
+}
+
 
 button {
   padding: 16px;
@@ -25,7 +36,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgb(197, 179, 179);
+  background: rgb(199, 183, 183);
 }
 
 nav ul {
@@ -54,6 +65,7 @@ nav a:hover {
 }
 
 #page-body {
+  font-size: 23px;
   max-width: 700px;
   margin: auto;
   padding-top: 64px;
@@ -102,7 +114,12 @@ textarea {
 p {
   display: inline-block;
   margin-right: 16px;
+
 }
+#upvotes-section{
+  margin-bottom: 25px;
+}
+
 
 .comment {
   border-bottom: 2px solid black;
