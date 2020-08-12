@@ -14,7 +14,7 @@ In this article, we will look at a number of travel blogs (in no particular orde
       <br />
 
       <p>
-          <h3>South Pacific islands</h3>
+          South Pacific islands
         Shaped like a giant sombrero, this lush volcanic island stars in
         countless South Pacific fantasies. The focal point and best asset of
         this tropical beauty is its ravishing lagoon in technicolor turquoise.
