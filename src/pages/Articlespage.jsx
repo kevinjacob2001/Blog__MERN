@@ -34,7 +34,7 @@ const ArticlePage = ({ match }) => {
       {article.content.map((paragraph, key) => (
         <p key={key}>{paragraph}</p>
       ))}
-
+<CommentsList comments={articleInfo.comments}/>
       <h2 style={{ textAlign: "center" }}>Other articles.</h2>
       <ArticleList articles={otherArticles} />
     </>

@@ -6,7 +6,7 @@ const CommentsList = ({ comments }) => (
     {comments.map((comment,key) => (
       <div className="comment" key={key}>
         <h4>{comment.username}</h4>
-        <p>{comments.text}</p>
+        <p>{comment.text}</p>
       </div>
     ))}
   </>
