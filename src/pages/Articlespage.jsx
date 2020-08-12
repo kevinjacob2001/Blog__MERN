@@ -11,7 +11,7 @@ const ArticlePage = ({ match }) => {
 
 useEffect(()=>{
   setArticleInfo({upvotes:Math.ceil(Math.random()*10)})
-},[]);
+},[name]);
 
   if (!article) return <NotFoundPage />;
 
