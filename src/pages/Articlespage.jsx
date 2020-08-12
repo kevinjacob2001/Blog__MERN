@@ -11,14 +11,15 @@ const ArticlePage = ({ match }) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(`http://localhost:8050/api/articles/${name}`);
-      const data = await response.json();
-      setArticleInfo(data);
+      const response = await fetch(`/api/articles/${name}`);
+      const body = await response.json();
+      console.log(body)
+      setArticleInfo(body);
     };
     fetchData();
   }, [name]);
 
-  
+
   if (!article) return <NotFoundPage />;
 
   const otherArticles = articleContent.filter(
