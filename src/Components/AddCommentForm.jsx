@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const AddCommentForm = () => {
+const AddCommentForm = ({articleName,setArticleInfo}) => {
   const [username, setusername] = useState("");
   const [commentText, setCommentText] = useState("");
 
@@ -16,21 +16,12 @@ setArticleInfo(body)
       <h3>Add a Comment.</h3>
       <label>
         Name:
-        <input
-          type="text"
-          value={username}
-          onChange={(e) => setusername(e.target.value)}
-        />
+        <input type="text" value={username} onChange={(e) => setusername(e.target.value)}/>
       </label>
       <label>
-        <textarea
-          rows="4"
-          cols="50"
-          value={commentText}
-          onChange={(e) => setCommentText(e.target.value)}
-        />
+        <textarea rows="4" cols="50" value={commentText} onChange={(e) => setCommentText(e.target.value)}/>
       </label>
-      <button>Add Comment.</button>
+      <button onClick={()=>addComment()}>Add Comment.</button>
     </div>
   );
 };
