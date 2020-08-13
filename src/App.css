@@ -126,3 +126,9 @@ p {
   border-bottom: 2px solid black;
   padding: 16px;
 }
+
+.image{
+  background-image: url(./kevin.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

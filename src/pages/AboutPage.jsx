@@ -2,7 +2,9 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div style={{height:"100vh"}}>
+    <div>
+    
+      <div style={{height:"100vh"}}>
       <h1 style={{ textAlign: "center" ,marginBottom:"50px"}}>About me</h1>
       <hr style={{width:"50%",background:"black"}}></hr>
       <p>
@@ -15,6 +17,7 @@ const AboutPage = () => {
         <br />
      <h3 style={{textAlign:"center",marginTop:"30px"}}>Get in touch!</h3>
      <hr style={{width:"30%"}}></hr>
+    
      <div style={{textAlign:"center"}}>
      <a style={{textDecoration:"none",color:"blue"}}  href="https://kevinjacob2001.github.io/">Personal website.</a>
      <br/>
@@ -22,10 +25,16 @@ const AboutPage = () => {
      <br/>
      <a style={{textDecoration:"none",color:"blue"}} href="https://www.linkedin.com/in/kevinjacob2001/"> <img src="https://img.icons8.com/fluent/35/000000/linkedin-2.png"/>Linkedin</a>
      </div>
-      </p>
-
+      
+    </p>
       <br />
-    </div>
+
+      </div>
+
+
+
+      </div>
+
   );
 };
 
